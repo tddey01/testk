@@ -1,0 +1,17 @@
+#上传文件的存储路径以及文件大小限制
+[Repo]
+UploadPath = "/opt/upload/"
+MaxSize = 8388608
+[MySql]
+Name = "yungo"
+Host = "8.129.83.148:3306"
+Username = "root"
+Password = "yungo2020!@"
+[Lotus]
+Host = "127.0.0.1:1234"
+Token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.vorxtE6GD9gy6yuAPfD1hzqotI3_5KaaZqHGe0Qg5FY"
+Lotus = "127.0.0.1:1234"
+[Redis]
+Host = "127.0.0.1:6379"
+Password = ""
+
